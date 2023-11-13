@@ -1,1 +1,47 @@
-/* Add screen styles below */
+body {
+  background-color: #f8f9fa;
+  
+}
+
+.ticket-container {
+  max-width: 700px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 50px auto;
+  padding: 20px;
+  background-image: url('Images/jabb.jpeg');
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #000;
+  display: flex;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #999; 
+}
+
+.ticket-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dancers {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.event-details {
+  margin-top: 20px;
+}
+
+.event-info {
+  margin-bottom: 10px;
+}
+
+.barcode {
+  margin: 20px 0 0 110px;
+  font-size: 18px;
+}
+
+img {
+  rotate: 90deg;
+  width: 150px;
+}
